@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASCII Art</title>
+    </head>
+    <body>
+        <h1>ASCII Art Generator</h1>
+        <form action="/ascii-art" method="POST">
+            <input type="text" name="text" placeholder="Enter text here">
+            <select name="banner">
+                <option value="standard">standard</option>
+                <option value="shadow">shadow</option>
+                <option value="thinkertoy">thinkertoy</option>
+                <option value="invalid">Invalid</option>
+            </select>
+            <button type="submit">Generate</button>
+        </form>
+    </body>
+</html>
+<pre>{{.}}</pre>
